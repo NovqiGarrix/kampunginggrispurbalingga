@@ -8,7 +8,7 @@ const JoinUs = () => {
                 <div className="w-full md:max-w-xl lg:max-w-4xl lg:w-full z-10 flex flex-col items-center justify-center">
                     <h3 className='text-3xl md:text-4xl text-center font-bold text-[#FF9D2A]'>YUK DAFTAR DAN PILIH PROGRAM TERBAIK</h3>
                     <p className='text-white mt-4 text-center text-base md:text-xl md:max-w-[85%]'>Menjadikan bahasa Inggris lebih mudah dan biaya yang terjangkau untuk semua orang</p>
-                    <Link href="#" className='text-white py-2.5 px-4 bg-[#3aac4b] inline-flex mt-7 lg:mt-10 items-center hover:bg-[#2b8038] duration-150 rounded-md'>
+                    <Link href="https://wa.me/6281243257772" className='text-white py-2.5 px-4 bg-[#3aac4b] inline-flex mt-7 lg:mt-10 items-center hover:bg-[#2b8038] duration-150 rounded-md'>
                         <WhatsApp /> <span className='ml-2'>Daftar Sekarang Juga</span>
                     </Link>
                 </div>

@@ -4,7 +4,7 @@ import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
 
 const OfflineClass = () => {
     return (
-        <div className='relative'>
+        <div id='courses' className='relative'>
             <section className='offline-class w-screen flex items-center justify-center px-5 py-12 lg:px-0'>
                 <div className="max-w-5xl flex flex-col lg:flex-row items-center justify-between lg:w-full z-10">
                     <div className='max-w-lg mb-12 lg:mb-0'>

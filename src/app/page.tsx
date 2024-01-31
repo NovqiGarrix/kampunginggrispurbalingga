@@ -2,7 +2,7 @@ import { Header, Hero, OfflineClass, OnlineClass, TestEnglishLevel, WhyUs, JoinU
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center relative">
+    <main className="relative scroll-smooth">
 
       <Header />
 

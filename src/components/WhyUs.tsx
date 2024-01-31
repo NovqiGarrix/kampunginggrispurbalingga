@@ -40,7 +40,7 @@ const whyUss = [
 
 const WhyUs = () => {
     return (
-        <div className='relative'>
+        <div id='about-us' className='relative'>
             <section className='why-us w-screen flex flex-col items-center justify-center px-5 py-12 lg:px-0'>
                 <div className="w-full md:max-w-xl lg:max-w-4xl lg:w-full z-10 flex flex-col items-center justify-center">
                     <h3 className='text-2xl md:text-3xl lg:text-4xl text-center font-bold text-black'>Mengapa Belajar Bahasa Inggris di <br className='hidden lg:block' /> <span className='text-[#FF9D2A]'>Kampung Inggris Purbalingga??</span></h3>
