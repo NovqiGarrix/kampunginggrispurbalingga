@@ -1,4 +1,4 @@
-import { Header, Hero } from "@/components";
+import { Header, Hero, OfflineClass, OnlineClass, TestEnglishLevel, WhyUs, JoinUs, Footer, Copyright } from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +7,20 @@ export default function Home() {
       <Header />
 
       <Hero />
+
+      <OfflineClass />
+
+      <OnlineClass />
+
+      <TestEnglishLevel />
+
+      <WhyUs />
+
+      <JoinUs />
+
+      <Footer />
+
+      <Copyright />
 
     </main>
   );

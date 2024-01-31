@@ -1,2 +1,9 @@
 export { default as Header } from './Header';
 export { default as Hero } from './Hero';
+export { default as OfflineClass } from './OfflineClass';
+export { default as OnlineClass } from './OnlineClass';
+export { default as TestEnglishLevel } from './TestEnglishLevel';
+export { default as WhyUs } from './WhyUs';
+export { default as JoinUs } from './JoinUs';
+export { default as Footer } from './Footer';
+export { default as Copyright } from './Copyright';

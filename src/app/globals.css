@@ -19,8 +19,88 @@
   display: block;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.9),
       rgba(0, 0, 0, 0.6));
+}
+
+.offline-class {
+  background-image: url('/img/offline-class.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.offline-class::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 62, 38, 0.9);
+}
+
+.online-class {
+  background-image: url('/img/online-class.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.online-class::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  @apply bg-yellow-600 bg-opacity-90;
+}
+
+.test-english-level {
+  background-image: url('/img/test-english-level.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.test-english-level::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 62, 38, 0.9);
+}
+
+.why-us {
+  background-image: url('/img/large-height.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.why-us::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.join-us {
+  background-image: url('/img/register-now.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.join-us::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 62, 38, 0.9);
 }
