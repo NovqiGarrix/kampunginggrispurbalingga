@@ -35,6 +35,7 @@ const Footer = () => {
                         <div className='flex flex-row space-x-3 mt-3'>
                             {socials.map(({ href, network }) => (
                                 <Link
+                                    key={network}
                                     href={href}
                                     target='_blank'
                                     rel='noopener noreferrer'
